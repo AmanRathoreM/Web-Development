@@ -1,0 +1,116 @@
+<!-- Date 7-3-2021 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+<body>
+    <h3>In this code we will learn that how tables are inserted in HTML!</h3>
+    <!-- Code to write a normal table is started -->
+    <Table border="2">
+        <Thead>
+            <tr>
+                <th>Class</th>
+                <th>Roll No.</th>
+                <th>Name</th>
+            </tr>
+        </Thead>
+        <tbody>
+            <tr>
+                <td>IX</td>
+                <td>9</td>
+                <td>Aman</td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>1</td>
+                <td>Aayush</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>6</td>
+                <td>Atharv</td>
+            </tr>
+            <tr>
+                <td>IIV</td>
+                <td>49</td>
+                <td>Sumit</td>
+            </tr>
+        </tbody>
+    </Table>
+    <!-- Code to write a normal table is ended -->
+    <hr>
+    <h3>In this code we will learn that how to <strong><em>insert one table into another </em></strong>in HTML!</h3>
+    <!-- Code to insert one table into another is started -->
+    <Table border="1">
+        <Thead>
+            <tr>
+                <th>Class</th>
+                <th>Roll No.</th>
+                <th>Name</th>
+            </tr>
+        </Thead>
+        <tbody>
+            <tr>
+                <td>IX</td>
+                <td>9</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Aman</th>
+                                <th>bike</th>
+                                <th>car</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1st Person</td>
+                                <td>2</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>2nd Person</td>
+                                <td>1</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>3rd Person</td>
+                                <td>1</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>1</td>
+                <td>Aayush</td>
+            </tr>
+            <tr>
+                <td>V</td>
+                <td>6</td>
+                <td>
+                    <ol type="I">
+                        <li>He is a boy.</li>
+                        <li>He is not a girl.</li>
+                        <li>His name is Atharv</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>IIV</td>
+                <td>49</td>
+                <td>Sumit</td>
+            </tr>
+        </tbody>
+    </Table>
+</body>
+
+</html>

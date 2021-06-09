@@ -1,0 +1,44 @@
+/* Date 10-3-2021  */
+.navbar {
+    background-color: black;
+    border: black;
+    border-top-right-radius: 49px;
+    border-bottom-right-radius: 49px;
+}
+
+.navbar ul {
+    overflow: auto;
+    /* The overflow property specifies what should happen if content overflows an element's box. This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Note: The overflow property only works for block elements with a specified height. */
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 29px 6px;
+}
+
+.navbar li a:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
+    color: rgba(23, 218, 111, 0.925);
+}
+
+.navbar li a {
+    padding: 30px 23px;
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+#searchbox {
+    font-size: 13px;
+    color: rgba(88, 66, 66, 0.952);
+    font-weight: bold;
+    float: right;
+    border: white;
+    border-radius: 17px;
+    background-color: white;
+    margin: 21.5px 49px 21.5px 25px;
+    padding: 11px 15px;
+    width: 260px;
+}

@@ -1,0 +1,189 @@
+/* Date 8-3-2021 */
+        /* .height{height: 50px;}
+        .width{width: 1200px;}
+        .border{border: slateblue;}
+        .background{background-color: sienna;} */
+        
+        #c1 {
+            background-color: slateblue;
+            height: 120px;
+            width: 400px;
+            border-color: rgb(27, 255, 255);
+            /* To set border colour */
+            border-style: solid;
+            /* To set border type */
+            border-width: 4px;
+            /* To set border width */
+            border-radius: 110px;
+            /* To make border adges curvy */
+        }
+
+        #c2 {
+            background-color: slateblue;
+            height: 120px;
+            width: 400px;
+            border-top: 5px solid rgb(59, 206, 15);
+            border-left: 10px dotted rgb(223, 175, 18);
+            border-right: 3px double rgb(109, 197, 197);
+            border-bottom: 1px solid rgba(167, 48, 223, 0.87);
+            border-radius: 10px;
+        }
+
+        #c3 {
+            background-color: slateblue;
+            height: 120px;
+            width: 400px;
+            border-top: 4px solid rgba(228, 10, 199, 0.849);
+            border-bottom: 4px solid rgba(10, 123, 228, 0.849);
+            border-left: 4px solid rgba(228, 97, 10, 0.849);
+            border-right: 4px solid rgba(10, 228, 155, 0.849);
+            border-radius: 2.5cm;
+        }
+
+        #c4_1 {
+            background-color: slateblue;
+            height: 120px;
+            width: 400px;
+            border-top: 4px solid rgba(233, 156, 223, 0.479);
+            border-bottom: 4px solid rgba(10, 228, 173, 0.849);
+            border-left: 4px solid rgba(46, 60, 141, 0.849);
+            border-right: 4px solid rgba(77, 97, 29, 0.849);
+            border-top-right-radius: 9cm;
+            border-bottom-left-radius: 4cm;
+        }
+
+        #c4_2 {
+            background-color: slateblue;
+            height: 120px;
+            width: 400px;
+            border-top: 4px solid rgba(233, 156, 223, 0.479);
+            border-bottom: 4px solid rgba(10, 228, 173, 0.849);
+            border-left: 4px solid rgba(46, 60, 141, 0.849);
+            border-right: 4px solid rgba(77, 97, 29, 0.849);
+            border-top-left-radius: 9cm;
+            border-bottom-right-radius: 9cm;
+        }
+
+        #c5_1_1 {
+            height: 1200px;
+            width: 4000px;
+            border-width: 100px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            /* image from local folder which is repeating*/
+        }
+        
+        #c5_1_2 {
+            height: 1200px;
+            width: 4000px;
+            border-width: 100px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: repeat-x;
+            /* image from local folder which is repeating only on x-axis*/
+        }
+
+        #c5_1_3 {
+            height: 1200px;
+            width: 4000px;
+            border-width: 100px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: repeat-y;
+            /* image from local folder which is repeating only on y-axis*/
+        }
+
+        #c5_1_4_1 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            /* image from local folder which is not repeating on any-axis*/
+        }
+
+        #c5_1_4_2 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        #c5_1_4_3 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+
+        #c5_1_4_4 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            background-position: center bottom;
+        }
+
+        #c5_1_4_5 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            background-position: 60px 60px;
+        }
+
+        #c5_1_4_6 {
+            height: 500px;
+            width: 500px;
+            border-width: 10px;
+            border-radius: 0.2cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('common.jfif');
+            background-repeat: no-repeat;
+            background-position: 40px 160px;
+            /* First write y-axis and then x-axis */
+        /* These are oly some examples of position of any image but there can be much more of it such as-
+        bottom right
+        right left
+        left top, and many more
+        */
+        }
+
+        #c5_2 {
+            height: 120px;
+            width: 400px;
+            border-width: 10px;
+            border-radius: 1.1cm;
+            border-style: solid;
+            border-color: rgba(20, 179, 190, 0.952);
+            background-image: url('https://source.unsplash.com/user/erondu/400x120');
+            /* image from web */
+        }

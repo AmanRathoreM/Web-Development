@@ -1,0 +1,53 @@
+/* Date 9-3-2021  */
+*{
+    box-sizing: border-box;
+}
+    .heading {
+        font-family: 'Snowburst One', cursive;
+    }
+
+    #teritaryheading{
+        font-family: 'Snowburst One', cursive;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 0.7cm;
+        margin: auto;
+        width: 50%;
+    }
+
+    #container {
+        border: 9px solid rgb(104, 190, 150);
+        border-radius: 3px;
+        background-color: rgb(102 192 255 / 85%);
+        width: 50%;
+        margin: auto;
+    }
+
+    .fruits {
+        border: 7.5px solid #c02cd2d1;
+        background-color: rgba(199, 241, 151, 0.856);
+        width: 50%;
+        float: left;
+    }
+
+    .computers {
+        border: 7.5px solid #c02cd2d1;
+        background-color: rgba(199, 241, 151, 0.856);
+        width: 50%;
+        float: right;
+    }
+
+    .stationary {
+        border: 7.5px solid #c02cd2d1;
+        background-color: rgba(199, 241, 151, 0.856);
+        width: 100%;
+        clear: both;
+        margin: 45px 32px;
+    }
+
+    .grosery {
+        border: 7.5px solid #c02cd2d1;
+        background-color: rgba(199, 241, 151, 0.856);
+        width: 100%;
+        clear: both;
+    }

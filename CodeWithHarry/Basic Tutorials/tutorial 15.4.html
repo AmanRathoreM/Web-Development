@@ -1,0 +1,60 @@
+<!-- Date 8-3-2021 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Class Selectors</title>
+</head>
+
+<body>
+    <!-- To know about Element Selectors go to "tutorial 15.1.html"  -->
+    <!-- To know about Id Selectors go to "tutorial 15.2.html"  -->
+    <!-- To know about Class Selectors go to "tutorial 15.3.html"  -->
+    <!-- In this code you will learn about CSS Grouping Selectors -->
+    <style>
+        p,
+        em,
+        strong,
+        h4,
+        footer {
+            border: 3px solid red;
+        }
+
+        em,
+        strong,
+        h4,
+        footer {
+            color: brown;
+            background-color: burlywood;
+        }
+
+        /* class selector */
+        .p2 {
+            color: rgba(202, 20, 20, 0.548);
+            background-color: cyan;
+        }
+
+        /* id selector */
+        #p3 {
+            background-color: darkblue;
+            color: darkcyan;
+        }
+    </style>
+    <h4>In this code we will learn about CSS Class Selectors</h4>
+    <em>I'm Italic!</em>
+    <p class="p1">orem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nulla asperiores harum distinctio
+        perferendis,
+        iste tempora consequatur quaerat cupiditate sed vero corporis fugiat natus quas deleniti culpa laudantium
+        reprehenderit sit!</p>
+    <p id="p3">My name is Aman</p>
+    <span class="p2">I'm a Boy</span>
+    <br>
+    <strong>I'm Bold text!</strong>
+    <h4>I'm Heading 4!</h4>
+    <footer>I'm footer!</footer>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+/* Date 10-3-2021  */
+.c1 {
+    border: 3px solid rgb(4, 147, 230);
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: rgb(202, 206, 146);
+    padding: 1cm;
+    margin: 0.6cm 1.6cm 1.6cm 1.6cm auto;
+    width: 55inch;
+    float: auto;
+}
+
+#i1 {
+    padding: 4% !important;
+    /* !important sign see that the object i.e. (here padding) will be first prefernence of website no matter which code of dezine is written first */
+}
+
+.btn {
+    border: 4px solid rgb(127 136 204 / 75%);
+    border-radius: 90px;
+    background-color: rgb(245, 126, 113);
+    padding: 0.23cm 0.4cm;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    /* The CSS :hover selector is one of the classes that are used to style elements. :hover is used to select elements that users hover their cursor or mouse over. It can be used on all elements, not only on links. ... This is typically when a user hovers over the element with their mouse. */
+    color: black;
+    background-color: rgb(250, 149, 138);
+    border: 4px solid rgb(250, 149, 138);;
+}
+
+.btn:visited {
+    /* The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited. */
+    background-color: rgba(236, 240, 0, 0.699);
+    color: rgb(55, 22, 68);
+}
+
+.btn:active {
+    /* The :active CSS pseudo-class represents an element (such as a button) that is being activated(pressed) by the user. When using a mouse, "activation" typically starts when the user presses down the primary(Mostely left click) mouse button. */
+    background-color: rgb(255, 155, 4);
+    color: rgb(55, 22, 68);
+}
+
+#h {
+    padding-left: 1.5% !important;
+}
+
+#btn_1 {
+    margin-left: 0.9cm !important;
+}

@@ -1,0 +1,82 @@
+<!-- Date 7-3-2021 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h3>In this code you will learn to write a HTML code for making a <em>Form</em>!</h3>
+    <form action="aman.php">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="myName">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="myRole">
+        </div>
+        <br>
+        <div>
+            <label for="eli">Are You eligible for work:</label>
+            <input type="checkbox" name="eli" id="eli" checked>
+        </div>
+        <br>
+        <div>
+            <label for="email">Entre your contact email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="salery"> Enter the <strong><em>Salary</em></strong> you are expecting from us:</label>
+            <input type="number" name="salery" id="salery">
+        </div>
+        <br>
+        <div>
+            <label for="gender"></label>
+            What's your Gender:
+            <br>
+            <strong><em>Male</em></strong><input type="radio" name="gender" id="gender">
+            <br>
+            <strong><em>Female</em></strong><input type="radio" name="gender" id="gender">
+            <br>
+            <strong><em>Others</em></strong><input type="radio" name="gender" id="gender">
+            <br>
+            <div>
+                <label for="date">When you will join <strong><em>JOIN</em></strong>:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="textarea"></label>Write something about <strong><em>you</em></strong>:
+            <br>
+            <textarea name="textarea" id="textarea" cols="80" rows="8"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="vehicle">What type of <strong><em>Vehicle</em></strong> you want:</label>
+            <select name="car" id="vehicle">
+                <option value="Bike">Bike</option>
+                <option value="Auto Riksha" selected>Auto Riksha </option>
+                <option value="Car">Car</option>
+                <option value="Jeep">Jeep</option>
+                <option value="SUV">SUV</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

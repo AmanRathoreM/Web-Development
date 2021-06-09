@@ -1,0 +1,39 @@
+/* Date 9-3-2021 */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ab51ef;
+}
+
+.hf {
+    font-family: 'Days One', sans-serif;
+    font-size: 0.9cm;
+}
+
+.p {
+    font-family: 'Underdog', cursive;
+    font-size: 0.5cm;
+}
+
+.primary1 {
+    border: 6px solid black;
+    border-radius: 1.55cm;
+    background-color: rgb(140, 161, 224);
+    padding: 21px 36px 45px 23px;
+    /*top right bottom left*/
+    margin: 21px 36px 45px 23px;
+    /*top right bottom left*/
+}
+
+.primary2 {
+    border: 6px solid black;
+    border-top-left-radius: 2.5cm;
+    border-bottom-right-radius: 2.5cm;
+    background-color: rgb(140, 161, 224);
+    padding: 90px 100px;
+    /*x(top/bottom) y(right/left)*/
+    margin: 45px 150px;
+    /*x(top/bottom) y(right/left)*/
+}

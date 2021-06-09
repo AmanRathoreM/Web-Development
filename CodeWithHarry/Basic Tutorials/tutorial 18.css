@@ -1,0 +1,5 @@
+/* Date 8-3-2021 */
+h3,span,p{background-color: rgb(13,56,7);}/* background colour */
+.c1{color: brown;}/* colour by it's name */
+.c2{color: rgb(234, 124, 23);}/* colour by name it's RGB value*/
+.c3{color: #f0a2e7;}/* colour by it's hex value  */
