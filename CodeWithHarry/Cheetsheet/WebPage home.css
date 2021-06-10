@@ -1,0 +1,240 @@
+/* Date 12-3-2021 */
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("https://2.bp.blogspot.com/-udg5NxgiyvU/XNek-xmJkpI/AAAAAAAACUw/zvG4aC3sYUgOO0swM_j43-mKVqS0cJuxgCKgBGAs/w0/avengers-endgame-iron-man-uhdpaper.com-8K-148.jpg"); */
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb0aa0;
+    color: white;
+    height: 72px;
+}
+
+.sidebar h2 {
+    margin-top: 110px;
+    padding-top: 20px;
+}
+/* 
+.content {
+    font-family: 'Potta One', cursive;
+} */
+
+/* .container { */
+    /* background-color: rgba(233, 54, 194, 0.651);
+border: 6px solid rgba(233, 54, 194, 0.651);
+border-radius: 1cm; */
+    /* width: 50vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} */
+
+.logo {
+    padding: 0 13px;
+}
+
+.logo img {
+    width: 32px;
+}
+.logo_home {
+    padding: 0 13px;
+}
+
+.logo_home img {
+    width: 32px;
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: rgba(240, 247, 248, 0.842) !important;
+    border: 1px solid rgba(240, 247, 248, 0.87) !important;
+    border-radius: 40px !important;
+    padding: 5px 14px !important;
+}
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #f3f5f9;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    width: 200px;
+    height: 100%;
+    background: #eb0aa0a9;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.wrapper .sidebar h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #cfd7b8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 16px;
+}
+
+.wrapper .sidebar ul li a {
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+    background-color: #b8318b62;
+    color: tomato;
+}
+
+.wrapper .sidebar ul li:hover a {
+    color: #fff;
+}
+/* 
+.wrapper .sidebar .social_media {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+} */
+/* 
+.wrapper .sidebar .social_media a {
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+} */
+
+.wrapper .main_content {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header {
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+    margin-bottom: 20px;
+}
+
+/* @media (max-height: 500px) {
+    .social_media {
+        display: none !important;
+    }
+} */
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b547c9cf;
+}
+
+.hf {
+    font-family: 'Days One', sans-serif;
+    font-size: 0.9cm;
+}
+
+.p,
+ul {
+    font-family: 'Underdog', cursive;
+    font-size: 0.5cm;
+}
+
+.primary1_1 {
+    border: 6px solid black;
+    border-radius: 1.55cm;
+    background-color: rgb(140, 161, 224);
+    padding: 21px 36px 45px 23px;
+    /*top right bottom left*/
+    margin: 181px 62px 57px 245px;
+    /*top right bottom left*/
+}
+
+.primary1_2 {
+    border: 6px solid black;
+    border-radius: 1.55cm;
+    background-color: rgb(140, 161, 224);
+    padding: 21px 36px 45px 23px;
+    /*top right bottom left*/
+    margin: 33px 62px 57px 245px;
+    /*top right bottom left*/
+}
+
+.primary2_1 {
+    border: 6px solid black;
+    border-top-left-radius: 2.5cm;
+    border-bottom-right-radius: 2.5cm;
+    background-color: rgb(140, 161, 224);
+    padding: 90px 100px;
+    /*x(top/bottom) y(right/left)*/
+    margin: 53px 87px 0px 631px;
+    /*x(top/bottom) y(right/left)*/
+}
+
+.primary2_2 {
+    border: 6px solid black;
+    border-top-left-radius: 2.5cm;
+    border-bottom-right-radius: 2.5cm;
+    background-color: rgb(140, 161, 224);
+    padding: 90px 100px;
+    /*x(top/bottom) y(right/left)*/
+    margin: 26px 422px 10px 291px;
+    /*x(top/bottom) y(right/left)*/
+}
